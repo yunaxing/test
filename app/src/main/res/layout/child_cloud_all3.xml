@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image_title"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="0"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/child_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="商品名"
+                android:textSize="10sp"
+                />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="right"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:background="@mipmap/coucouordermai"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="第"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="666"
+                android:textColor="#f00"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="期"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="参与"
+
+                android:textSize="10sp"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="666"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textColor="#f00"
+                android:textSize="10sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人次"
+                android:textSize="10sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="幸运号："
+                android:paddingLeft="20dp"
+                android:textSize="10sp"
+                />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000026"
+                android:textColor="#f00"
+                android:textSize="10sp"
+                />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:layout_marginLeft="63dp"
+                android:background="@mipmap/coucouordertui"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="揭晓时间："
+                android:textSize="10sp"
+                />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="2016.05.11.12.56.56.222"
+                android:textSize="10sp"
+                android:textColor="#f00"
+                />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:background="@mipmap/coucouordershang"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="2"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_marginLeft="3dp"-->
+    <!-->-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="第4期"-->
+    <!--android:textSize="10sp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn1"-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="14dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/textView"-->
+    <!--android:layout_gravity="right"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="@color/hui_buy_title_bg_color_red"-->
+    <!--android:text="幸运号"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="10sp"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn2"-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="14dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_gravity="right"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:background="@color/hui_buy_title_bg_color_red"-->
+    <!--android:text="跟  单"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="10sp"-->
+
+    <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">穷开心商城</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_shares">Share</string>
+    <string name="title_activity_cloud_community_page">CloudCommunityPageActivity</string>
+    <string name="title_activity_hui_community_page">HuiCommunityPageActivity</string>
+    <string name="title_activity_topic_infomation">TopicInfomationActivity</string>
+    <string name="title_activity_create_topic">CreateTopicActivity</string>
+    <string name="title_activity_suggest_page">SuggestPageActivity</string>
+    <string name="title_activity_report_page">ReportPageActivity</string>
+    <string name="title_activity_create_suggest">CreateSuggestActivity</string>
+    <string name="title_activity_create_report">CreateReportActivity</string>
+    <string name="title_activity_all_cloud_order">AllCloudOrderActivity</string>
+    <string name="title_activity_per_center_my_wallet">PerCenterMyWalletActivity</string>
+    <string name="title_activity_account_recharge">AccountRechargeActivity</string>
+    <string name="title_activity_account_hapy_bean_get_way">AccountHapyBeanGetWayActivity</string>
+    <string name="title_activity_account_manage">AccountManageActivity</string>
+    <string name="title_activity_account_address_manage">AccountAddressManageActivity</string>
+    <string name="title_activity_add_new_receiving_address">AddNewReceivingAddressActivity</string>
+    <string name="title_activity_all_buy_menu">AllBuyMenuActivity</string>
+    <string name="title_activity_cloud_buy_product_detail_page">CloudBuyProductDetailPageActivity
+    </string>
+    <string name="title_activity_all_product_detail_page">AllProductDetailPageActivity</string>
+    <string name="title_activity_product_detail_pay">ProductDetailPayActivity</string>
+    <string name="title_activity_current_product_history">CurrentProductHistoryActivity</string>
+    <string name="title_activity_hui_buy_product_detail_page">HuiBuyProductDetailPageActivity
+    </string>
+    <string name="title_activity_hui_buy_choice_sth_page">HuiBuyChoiceSthPageActivity</string>
+    <string name="title_activity_hui_buy_pay">HuiBuyPayActivity</string>
+    <string name="title_activity_all_hui_order">AllHuiOrderActivity</string>
+    <string name="title_activity_evaluate">EvaluateActivity</string>
+    <string name="title_activity_after_sale">AfterSaleActivity</string>
+    <string name="title_activity_hui_class_items">HuiClassItemsActivity</string>
+    <string name="title_activity_all_cloud_class_item">AllCloudClassItem</string>
+    <string name="title_activity_connect_get_service">ConnectGetServiceActivity</string>
+    <string name="title_activity_hui_search">HuiSearchActivity</string>
+    <string name="title_activity_cloud_search">CloudSearchActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="title_activity_change_bing_phone">ChangeBingPhoneActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_documents">DocumentsActivity</string>
+    <string name="title_activity_fragment_main">FragmentMainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_phone_manage">PhoneManageActivity</string>
+    <string name="title_activity_fragment_blank">FragmentBlankActivity</string>
+    <string name="title_activity_my_luck_number">MyLuckNumberActivity</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_hui">HuiActivity</string>
+    <string name="title_activity_address_select">AddressSelectActivity</string>
+    <string name="title_activity_edit_address">EditAddressActivity</string>
+    <string name="title_activity_hui_add_to_cart">HuiAddToCartActivity</string>
+    <string name="title_activity_cloud_detail">CloudDetailActivity</string>
+    <string name="title_activity_all_order">AllOrderActivity</string>
+    <string name="title_activity_creat_order">CreatOrderActivity</string>
+    <string name="str_XinPin">新品上架，口碑好坏您来评</string>
+</resources>

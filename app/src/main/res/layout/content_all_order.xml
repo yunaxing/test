@@ -1,0 +1,5 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/huiOrder"
+    android:name="com.qkxmall.mall.views.hui.order.AllOrderActivityFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

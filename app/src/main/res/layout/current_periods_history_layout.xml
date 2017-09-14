@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="历史记录"
+        android:textSize="16sp"
+        android:textColor="@color/cloud_buy_text_color_red"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="8dp"
+                android:gravity="center"
+                android:text="账 号"
+                android:textSize="16sp"
+                android:background="@color/material_grey_300"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="8dp"
+                android:gravity="center"
+                android:text="下单时间"
+                android:textSize="16sp"
+                android:background="@color/material_grey_300"
+                />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:gravity="center"
+                android:text="提取"
+                android:textSize="16sp"
+                android:background="@color/material_grey_300"
+                />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/current_product_history_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            ></ListView>
+    </LinearLayout>
+
+</LinearLayout>

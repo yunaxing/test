@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/community_cloud_topic_user_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/topic_user_image_background"
+            />
+        <TextView
+            android:id="@+id/community_cloud_topic_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/community_cloud_topic_user_image"
+            android:text="用户名"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="发帖标题"
+        android:textColor="@color/text_black"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:id="@+id/community_cloud_topic_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lines="2"
+        android:ellipsize="end"
+        android:text="发帖标题内容"
+        android:textColor="@color/text_black"
+        android:textSize="15sp"
+        />
+
+
+    <TextView
+        android:id="@+id/community_cloud_topic_item_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="id"
+        android:visibility="invisible"
+        />
+
+</LinearLayout>

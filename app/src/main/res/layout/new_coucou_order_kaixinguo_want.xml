@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/material_grey_300"
+    tools:context=".views.hui.HuiBuyPayActivity">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        ></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/title_h"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/backimg_want"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:src="@mipmap/coucou_order_kaixinguo_dialog_want"/>
+            />
+
+        <Button
+            android:id="@+id/btn_want"
+            android:layout_width="88dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="345dp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="@mipmap/coucou_order_kaixinguo_btn_want"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

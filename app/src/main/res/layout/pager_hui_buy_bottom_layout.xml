@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.qkxmall.mall.define.views.GridViewWithScrollView
+        android:id="@+id/grid_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:paddingTop="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:verticalSpacing="3pt"
+        android:horizontalSpacing="3pt"
+        android:background="@color/material_grey_300"
+        android:layout_gravity="center_horizontal"
+        ></com.qkxmall.mall.define.views.GridViewWithScrollView>
+</RelativeLayout>

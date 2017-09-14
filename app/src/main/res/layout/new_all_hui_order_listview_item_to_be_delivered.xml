@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#aaaaaa"  />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:id="@+id/image_title"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:textSize="12sp"
+                android:text="产品名"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="订单编号："
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        />
+                    <TextView
+                        android:id="@+id/numbers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        android:textColor="@color/cloud_buy_text_color_red"
+                        />
+                </LinearLayout>
+                <!--<LinearLayout-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="right"-->
+                <!--android:orientation="horizontal"-->
+                <!-->-->
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="使用开心豆 "-->
+                <!--android:textSize="10sp"-->
+                <!--/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/kaiXinDouNumber"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="0"-->
+                <!--android:textSize="10sp"-->
+                <!--android:textColor="@color/cloud_buy_text_color_red"-->
+                <!--/>-->
+                <!--</LinearLayout>-->
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginTop="6dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="实付款￥"
+                        android:textSize="10sp"
+                        />
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="10sp"
+                        android:textColor="@color/cloud_buy_text_color_red"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginTop="6dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="共计 "
+                        android:textSize="9sp"
+                        />
+                    <TextView
+                        android:id="@+id/num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="10sp"
+                        android:textColor="@color/cloud_buy_text_color_red"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 件"
+                        android:textSize="10sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    >
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            >
+            <Button
+                android:id="@+id/pay2"
+                android:layout_width="48dp"
+                android:layout_height="16dp"
+                android:layout_gravity="right"
+                android:text="确认收货"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:background="@drawable/text_itme"
+                android:visibility="invisible"
+                />
+            <Button
+                android:id="@+id/pay3"
+                android:layout_width="48dp"
+                android:layout_height="16dp"
+                android:layout_gravity="right"
+                android:text="售后"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:background="@drawable/text_itme"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                />
+            <Button
+                android:id="@+id/pay"
+                android:layout_width="48dp"
+                android:layout_height="16dp"
+                android:layout_gravity="right"
+                android:text="提醒发货"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:background="@drawable/text_itme"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/black"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/btn_order_info" />
+        <ImageView
+            android:id="@+id/img_del"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/btn_order_del" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
